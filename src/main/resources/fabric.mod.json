@@ -3,7 +3,7 @@
   "id": "entityrenderdisabler",
   "version": "${version}",
   "name": "EntityRenderDisabler",
-  "description": "A minecraft mod to disable Entity Render ",
+  "description": "A minecraft mod to disable Entity Render",
   "authors": [],
   "contact": {},
   "license": "All-Rights-Reserved",
@@ -15,6 +15,9 @@
     ],
     "main": [
       "victorgponce.com.entityrenderdisabler.Entityrenderdisabler"
+    ],
+    "modmenu": [
+      "victorgponce.com.entityrenderdisabler.config.ModMenuIntegration"
     ]
   },
   "mixins": [
@@ -23,6 +26,19 @@
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "${minecraft_version}",
+    "yet_another_config_lib_v3": ">=3.6.1+1.21-fabric"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.website": "https://victorgponce.com",
+        "modmenu.github_releases": "https://github.com/ponchisao326/Aurigas-NoRenderPiglin",
+        "modmenu.modrinth": "https://modrinth.com/user/PonchisaoHosting"
+      },
+      "description": "A minecraft mod to disable Entity Render",
+      "icon": "assets/entityrenderdisabler/icon.png",
+      "update_checker": false
+    }
   }
 }
