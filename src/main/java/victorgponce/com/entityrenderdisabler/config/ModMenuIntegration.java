@@ -7,116 +7,116 @@ import dev.isxander.yacl3.api.*;
 import dev.isxander.yacl3.api.controller.TickBoxControllerBuilder;
 import net.minecraft.text.Text;;
 
-class ModMenuIntegration implements ModMenuApi {
+public class ModMenuIntegration implements ModMenuApi {
 
-    public boolean allayOption;
-    public boolean areaEffectCloudOption;
-    public boolean armadilloOption;
-    public boolean armorStandOption;
-    public boolean arrowOption;
-    public boolean axolotlOption;
-    public boolean batOption;
-    public boolean beeOption;
-    public boolean blazeOption;
-    public boolean blockDisplayOption;
-    public boolean boatOption;
-    public boolean camelOption;
-    public boolean catOption;
-    public boolean caveSpiderOption;
-    public boolean chestBoatOption;
-    public boolean chickenOption;
-    public boolean codOption;
-    public boolean cowOption;
-    public boolean creeperOption;
-    public boolean dolphinOption;
-    public boolean donkeyOption;
-    public boolean drownedOption;
-    public boolean eggOption;
-    public boolean elderGuardianOption;
-    public boolean enderDragonOption;
-    public boolean enderPearlOption;
-    public boolean endermanOption;
-    public boolean endermiteOption;
-    public boolean evokerOption;
-    public boolean experienceBottleOption;
-    public boolean experienceOrbOption;
-    public boolean fireworkRocketOption;
-    public boolean foxOption;
-    public boolean furnaceMinecartOption;
-    public boolean ghastOption;
-    public boolean giantOption;
-    public boolean glowItemFrameOption;
-    public boolean glowSquidOption;
-    public boolean goatOption;
-    public boolean guardianOption;
-    public boolean horseOption;
-    public boolean huskOption;
-    public boolean ironGolemOption;
-    public boolean itemOption;
-    public boolean llamaOption;
-    public boolean magmaCubeOption;
-    public boolean minecartOption;
-    public boolean mooshroomOption;
-    public boolean muleOption;
-    public boolean ocelotOption;
-    public boolean pandaOption;
-    public boolean parrotOption;
-    public boolean pigOption;
-    public boolean piglinOption;
-    public boolean pillagerOption;
-    public boolean polarBearOption;
-    public boolean potionOption;
-    public boolean pufferfishOption;
-    public boolean rabbitOption;
-    public boolean ravagerOption;
-    public boolean salmonOption;
-    public boolean sheepOption;
-    public boolean shulkerOption;
-    public boolean skeletonOption;
-    public boolean slimeOption;
-    public boolean snowGolemOption;
-    public boolean snowballOption;
-    public boolean spiderOption;
-    public boolean squidOption;
-    public boolean strayOption;
-    public boolean tntOption;
-    public boolean traderLlamaOption;
-    public boolean tridentOption;
-    public boolean turtleOption;
-    public boolean villagerOption;
-    public boolean vindicatorOption;
-    public boolean wardenOption;
-    public boolean witchOption;
-    public boolean witherOption;
-    public boolean witherSkeletonOption;
-    public boolean wolfOption;
-    public boolean zombieOption;
-    public boolean zombieHorseOption;
-    public boolean zombieVillagerOption;
-    public boolean zombifiedPiglinOption;
-    public boolean breezeWindChargeOption;
-    public boolean commandBlockMinecartOption;
-    public boolean dragonFireballOption;
-    public boolean endCrystalOption;
-    public boolean eyeOfEnderOption;
-    public boolean fireballOption;
-    public boolean interactionOption;
-    public boolean itemDisplayOption;
-    public boolean itemFrameOption;
-    public boolean leashKnotOption;
-    public boolean lightningBoltOption;
-    public boolean llamaSpitOption;
-    public boolean markerOption;
-    public boolean ominousItemSpawnerOption;
-    public boolean spectralArrowOption;
-    public boolean striderOption;
-    public boolean tadpoleOption;
-    public boolean textDisplayOption;
-    public boolean tntMinecartOption;
-    public boolean wanderingTraderOption;
-    public boolean windChargeOption;
-    public boolean witherSkullOption;
-    public boolean fishingBobberOption;
+    public boolean allayOption = true;
+    public boolean areaEffectCloudOption = true;
+    public boolean armadilloOption = true;
+    public boolean armorStandOption = true;
+    public boolean arrowOption = true;
+    public boolean axolotlOption = true;
+    public boolean batOption = true;
+    public boolean beeOption = true;
+    public boolean blazeOption = true;
+    public boolean blockDisplayOption = true;
+    public boolean boatOption = true;
+    public boolean camelOption = true;
+    public boolean catOption = true;
+    public boolean caveSpiderOption = true;
+    public boolean chestBoatOption = true;
+    public boolean chickenOption = true;
+    public boolean codOption = true;
+    public boolean cowOption = true;
+    public boolean creeperOption = true;
+    public boolean dolphinOption = true;
+    public boolean donkeyOption = true;
+    public boolean drownedOption = true;
+    public boolean eggOption = true;
+    public boolean elderGuardianOption = true;
+    public boolean enderDragonOption = true;
+    public boolean enderPearlOption = true;
+    public boolean endermanOption = true;
+    public boolean endermiteOption = true;
+    public boolean evokerOption = true;
+    public boolean experienceBottleOption = true;
+    public boolean experienceOrbOption = true;
+    public boolean fireworkRocketOption = true;
+    public boolean foxOption = true;
+    public boolean furnaceMinecartOption = true;
+    public boolean ghastOption = true;
+    public boolean giantOption = true;
+    public boolean glowItemFrameOption = true;
+    public boolean glowSquidOption = true;
+    public boolean goatOption = true;
+    public boolean guardianOption = true;
+    public boolean horseOption = true;
+    public boolean huskOption = true;
+    public boolean ironGolemOption = true;
+    public boolean itemOption = true;
+    public boolean llamaOption = true;
+    public boolean magmaCubeOption = true;
+    public boolean minecartOption = true;
+    public boolean mooshroomOption = true;
+    public boolean muleOption = true;
+    public boolean ocelotOption = true;
+    public boolean pandaOption = true;
+    public boolean parrotOption = true;
+    public boolean pigOption = true;
+    public boolean piglinOption = true;
+    public boolean pillagerOption = true;
+    public boolean polarBearOption = true;
+    public boolean potionOption = true;
+    public boolean pufferfishOption = true;
+    public boolean rabbitOption = true;
+    public boolean ravagerOption = true;
+    public boolean salmonOption = true;
+    public boolean sheepOption = true;
+    public boolean shulkerOption = true;
+    public boolean skeletonOption = true;
+    public boolean slimeOption = true;
+    public boolean snowGolemOption = true;
+    public boolean snowballOption = true;
+    public boolean spiderOption = true;
+    public boolean squidOption = true;
+    public boolean strayOption = true;
+    public boolean tntOption = true;
+    public boolean traderLlamaOption = true;
+    public boolean tridentOption = true;
+    public boolean turtleOption = true;
+    public boolean villagerOption = true;
+    public boolean vindicatorOption = true;
+    public boolean wardenOption = true;
+    public boolean witchOption = true;
+    public boolean witherOption = true;
+    public boolean witherSkeletonOption = true;
+    public boolean wolfOption = true;
+    public boolean zombieOption = true;
+    public boolean zombieHorseOption = true;
+    public boolean zombieVillagerOption = true;
+    public boolean zombifiedPiglinOption = true;
+    public boolean breezeWindChargeOption = true;
+    public boolean commandBlockMinecartOption = true;
+    public boolean dragonFireballOption = true;
+    public boolean endCrystalOption = true;
+    public boolean eyeOfEnderOption = true;
+    public boolean fireballOption = true;
+    public boolean itemDisplayOption = true;
+    public boolean itemFrameOption = true;
+    public boolean leashKnotOption = true;
+    public boolean lightningBoltOption = true;
+    public boolean llamaSpitOption = true;
+    public boolean markerOption = true;
+    public boolean ominousItemSpawnerOption = true;
+    public boolean spectralArrowOption = true;
+    public boolean striderOption = true;
+    public boolean tadpoleOption = true;
+    public boolean textDisplayOption = true;
+    public boolean tntMinecartOption = true;
+    public boolean wanderingTraderOption = true;
+    public boolean windChargeOption = true;
+    public boolean witherSkullOption = true;
+    public boolean fishingBobberOption = true;
+
 
 
     @Override
@@ -141,147 +141,292 @@ class ModMenuIntegration implements ModMenuApi {
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Area Effect Cloud"))
-                                        .binding(true, () -> this.areaEffectCloudOption, newVal -> this.areaEffectCloudOption = newVal)
+                                        .binding(ConfigHandler.config.areaEffectCloudOption,
+                                                () -> ConfigHandler.config.areaEffectCloudOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.areaEffectCloudOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Armadillo"))
-                                        .binding(true, () -> this.armadilloOption, newVal -> this.armadilloOption = newVal)
+                                        .binding(ConfigHandler.config.armadilloOption,
+                                                () -> ConfigHandler.config.armadilloOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.armadilloOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Armor Stand"))
-                                        .binding(true, () -> this.armorStandOption, newVal -> this.armorStandOption = newVal)
+                                        .binding(ConfigHandler.config.armorStandOption,
+                                                () -> ConfigHandler.config.armorStandOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.armorStandOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Arrow"))
-                                        .binding(true, () -> this.arrowOption, newVal -> this.arrowOption = newVal)
+                                        .binding(ConfigHandler.config.arrowOption,
+                                                () -> ConfigHandler.config.arrowOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.arrowOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Axolotl"))
-                                        .binding(true, () -> this.axolotlOption, newVal -> this.axolotlOption = newVal)
+                                        .binding(ConfigHandler.config.axolotlOption,
+                                                () -> ConfigHandler.config.axolotlOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.axolotlOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Bat"))
-                                        .binding(true, () -> this.batOption, newVal -> this.batOption = newVal)
+                                        .binding(ConfigHandler.config.batOption,
+                                                () -> ConfigHandler.config.batOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.batOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Bee"))
-                                        .binding(true, () -> this.beeOption, newVal -> this.beeOption = newVal)
+                                        .binding(ConfigHandler.config.beeOption,
+                                                () -> ConfigHandler.config.beeOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.beeOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Blaze"))
-                                        .binding(true, () -> this.blazeOption, newVal -> this.blazeOption = newVal)
+                                        .binding(ConfigHandler.config.blazeOption,
+                                                () -> ConfigHandler.config.blazeOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.blazeOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Block Display"))
-                                        .binding(true, () -> this.blockDisplayOption, newVal -> this.blockDisplayOption = newVal)
+                                        .binding(ConfigHandler.config.blockDisplayOption,
+                                                () -> ConfigHandler.config.blockDisplayOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.blockDisplayOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Boat"))
-                                        .binding(true, () -> this.boatOption, newVal -> this.boatOption = newVal)
+                                        .binding(ConfigHandler.config.boatOption,
+                                                () -> ConfigHandler.config.boatOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.boatOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Camel"))
-                                        .binding(true, () -> this.camelOption, newVal -> this.camelOption = newVal)
+                                        .binding(ConfigHandler.config.camelOption,
+                                                () -> ConfigHandler.config.camelOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.camelOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Cat"))
-                                        .binding(true, () -> this.catOption, newVal -> this.catOption = newVal)
+                                        .binding(ConfigHandler.config.catOption,
+                                                () -> ConfigHandler.config.catOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.catOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Cave Spider"))
-                                        .binding(true, () -> this.caveSpiderOption, newVal -> this.caveSpiderOption = newVal)
+                                        .binding(ConfigHandler.config.caveSpiderOption,
+                                                () -> ConfigHandler.config.caveSpiderOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.caveSpiderOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Chest Boat"))
-                                        .binding(true, () -> this.chestBoatOption, newVal -> this.chestBoatOption = newVal)
+                                        .binding(ConfigHandler.config.chestBoatOption,
+                                                () -> ConfigHandler.config.chestBoatOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.chestBoatOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Chicken"))
-                                        .binding(true, () -> this.chickenOption, newVal -> this.chickenOption = newVal)
+                                        .binding(ConfigHandler.config.chickenOption,
+                                                () -> ConfigHandler.config.chickenOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.chickenOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Cod"))
-                                        .binding(true, () -> this.codOption, newVal -> this.codOption = newVal)
+                                        .binding(ConfigHandler.config.codOption,
+                                                () -> ConfigHandler.config.codOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.codOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Cow"))
-                                        .binding(true, () -> this.cowOption, newVal -> this.cowOption = newVal)
+                                        .binding(ConfigHandler.config.cowOption,
+                                                () -> ConfigHandler.config.cowOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.cowOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Creeper"))
-                                        .binding(true, () -> this.creeperOption, newVal -> this.creeperOption = newVal)
+                                        .binding(ConfigHandler.config.creeperOption,
+                                                () -> ConfigHandler.config.creeperOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.creeperOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Dolphin"))
-                                        .binding(true, () -> this.dolphinOption, newVal -> this.dolphinOption = newVal)
+                                        .binding(ConfigHandler.config.dolphinOption,
+                                                () -> ConfigHandler.config.dolphinOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.dolphinOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Donkey"))
-                                        .binding(true, () -> this.donkeyOption, newVal -> this.donkeyOption = newVal)
+                                        .binding(ConfigHandler.config.donkeyOption,
+                                                () -> ConfigHandler.config.donkeyOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.donkeyOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Drowned"))
-                                        .binding(true, () -> this.drownedOption, newVal -> this.drownedOption = newVal)
+                                        .binding(ConfigHandler.config.drownedOption,
+                                                () -> ConfigHandler.config.drownedOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.drownedOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Egg"))
-                                        .binding(true, () -> this.eggOption, newVal -> this.eggOption = newVal)
+                                        .binding(ConfigHandler.config.eggOption,
+                                                () -> ConfigHandler.config.eggOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.eggOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Elder Guardian"))
-                                        .binding(true, () -> this.elderGuardianOption, newVal -> this.elderGuardianOption = newVal)
+                                        .binding(ConfigHandler.config.elderGuardianOption,
+                                                () -> ConfigHandler.config.elderGuardianOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.elderGuardianOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Ender Dragon"))
-                                        .binding(true, () -> this.enderDragonOption, newVal -> this.enderDragonOption = newVal)
+                                        .binding(ConfigHandler.config.enderDragonOption,
+                                                () -> ConfigHandler.config.enderDragonOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.enderDragonOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Ender Pearl"))
-                                        .binding(true, () -> this.enderPearlOption, newVal -> this.enderPearlOption = newVal)
+                                        .binding(ConfigHandler.config.enderPearlOption,
+                                                () -> ConfigHandler.config.enderPearlOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.enderPearlOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Enderman"))
-                                        .binding(true, () -> this.endermanOption, newVal -> this.endermanOption = newVal)
+                                        .binding(ConfigHandler.config.endermanOption,
+                                                () -> ConfigHandler.config.endermanOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.endermanOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Endermite"))
-                                        .binding(true, () -> this.endermiteOption, newVal -> this.endermiteOption = newVal)
+                                        .binding(ConfigHandler.config.endermiteOption,
+                                                () -> ConfigHandler.config.endermiteOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.endermiteOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Evoker"))
-                                        .binding(true, () -> this.evokerOption, newVal -> this.evokerOption = newVal)
+                                        .binding(ConfigHandler.config.evokerOption,
+                                                () -> ConfigHandler.config.evokerOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.evokerOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Experience Bottle"))
-                                        .binding(true, () -> this.experienceBottleOption, newVal -> this.experienceBottleOption = newVal)
+                                        .binding(ConfigHandler.config.experienceBottleOption,
+                                                () -> ConfigHandler.config.experienceBottleOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.experienceBottleOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
@@ -290,386 +435,775 @@ class ModMenuIntegration implements ModMenuApi {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
+                                        .name(Text.literal("Experience Orb"))
+                                        .binding(ConfigHandler.config.experienceOrbOption,
+                                                () -> ConfigHandler.config.experienceOrbOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.experienceOrbOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
+                                        .controller(TickBoxControllerBuilder::create)
+                                        .build())
+                                .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Firework Rocket"))
-                                        .binding(true, () -> this.fireworkRocketOption, newVal -> this.fireworkRocketOption = newVal)
+                                        .binding(ConfigHandler.config.fireworkRocketOption,
+                                                () -> ConfigHandler.config.fireworkRocketOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.fireworkRocketOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Fox"))
-                                        .binding(true, () -> this.foxOption, newVal -> this.foxOption = newVal)
+                                        .binding(ConfigHandler.config.foxOption,
+                                                () -> ConfigHandler.config.foxOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.foxOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Furnace Minecart"))
-                                        .binding(true, () -> this.furnaceMinecartOption, newVal -> this.furnaceMinecartOption = newVal)
+                                        .binding(ConfigHandler.config.furnaceMinecartOption,
+                                                () -> ConfigHandler.config.furnaceMinecartOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.furnaceMinecartOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Ghast"))
-                                        .binding(true, () -> this.ghastOption, newVal -> this.ghastOption = newVal)
+                                        .binding(ConfigHandler.config.ghastOption,
+                                                () -> ConfigHandler.config.ghastOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.ghastOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Giant"))
-                                        .binding(true, () -> this.giantOption, newVal -> this.giantOption = newVal)
+                                        .binding(ConfigHandler.config.giantOption,
+                                                () -> ConfigHandler.config.giantOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.giantOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Glow Item Frame"))
-                                        .binding(true, () -> this.glowItemFrameOption, newVal -> this.glowItemFrameOption = newVal)
+                                        .binding(ConfigHandler.config.glowItemFrameOption,
+                                                () -> ConfigHandler.config.glowItemFrameOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.glowItemFrameOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Glow Squid"))
-                                        .binding(true, () -> this.glowSquidOption, newVal -> this.glowSquidOption = newVal)
+                                        .binding(ConfigHandler.config.glowSquidOption,
+                                                () -> ConfigHandler.config.glowSquidOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.glowSquidOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Goat"))
-                                        .binding(true, () -> this.goatOption, newVal -> this.goatOption = newVal)
+                                        .binding(ConfigHandler.config.goatOption,
+                                                () -> ConfigHandler.config.goatOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.goatOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Guardian"))
-                                        .binding(true, () -> this.guardianOption, newVal -> this.guardianOption = newVal)
+                                        .binding(ConfigHandler.config.guardianOption,
+                                                () -> ConfigHandler.config.guardianOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.guardianOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Horse"))
-                                        .binding(true, () -> this.horseOption, newVal -> this.horseOption = newVal)
+                                        .binding(ConfigHandler.config.horseOption,
+                                                () -> ConfigHandler.config.horseOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.horseOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Husk"))
-                                        .binding(true, () -> this.huskOption, newVal -> this.huskOption = newVal)
+                                        .binding(ConfigHandler.config.huskOption,
+                                                () -> ConfigHandler.config.huskOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.huskOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Iron Golem"))
-                                        .binding(true, () -> this.ironGolemOption, newVal -> this.ironGolemOption = newVal)
+                                        .binding(ConfigHandler.config.ironGolemOption,
+                                                () -> ConfigHandler.config.ironGolemOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.ironGolemOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Item"))
-                                        .binding(true, () -> this.itemOption, newVal -> this.itemOption = newVal)
+                                        .binding(ConfigHandler.config.itemOption,
+                                                () -> ConfigHandler.config.itemOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.itemOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Llama"))
-                                        .binding(true, () -> this.llamaOption, newVal -> this.llamaOption = newVal)
+                                        .binding(ConfigHandler.config.llamaOption,
+                                                () -> ConfigHandler.config.llamaOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.llamaOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Magma Cube"))
-                                        .binding(true, () -> this.magmaCubeOption, newVal -> this.magmaCubeOption = newVal)
+                                        .binding(ConfigHandler.config.magmaCubeOption,
+                                                () -> ConfigHandler.config.magmaCubeOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.magmaCubeOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Minecart"))
-                                        .binding(true, () -> this.minecartOption, newVal -> this.minecartOption = newVal)
+                                        .binding(ConfigHandler.config.minecartOption,
+                                                () -> ConfigHandler.config.minecartOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.minecartOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Mooshroom"))
-                                        .binding(true, () -> this.mooshroomOption, newVal -> this.mooshroomOption = newVal)
+                                        .binding(ConfigHandler.config.mooshroomOption,
+                                                () -> ConfigHandler.config.mooshroomOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.mooshroomOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Mule"))
-                                        .binding(true, () -> this.muleOption, newVal -> this.muleOption = newVal)
+                                        .binding(ConfigHandler.config.muleOption,
+                                                () -> ConfigHandler.config.muleOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.muleOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Ocelot"))
-                                        .binding(true, () -> this.ocelotOption, newVal -> this.ocelotOption = newVal)
+                                        .binding(ConfigHandler.config.ocelotOption,
+                                                () -> ConfigHandler.config.ocelotOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.ocelotOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Panda"))
-                                        .binding(true, () -> this.pandaOption, newVal -> this.pandaOption = newVal)
+                                        .binding(ConfigHandler.config.pandaOption,
+                                                () -> ConfigHandler.config.pandaOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.pandaOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Parrot"))
-                                        .binding(true, () -> this.parrotOption, newVal -> this.parrotOption = newVal)
+                                        .binding(ConfigHandler.config.parrotOption,
+                                                () -> ConfigHandler.config.parrotOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.parrotOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Pig"))
-                                        .binding(true, () -> this.pigOption, newVal -> this.pigOption = newVal)
+                                        .binding(ConfigHandler.config.pigOption,
+                                                () -> ConfigHandler.config.pigOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.pigOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Piglin"))
-                                        .binding(true, () -> this.piglinOption, newVal -> this.piglinOption = newVal)
+                                        .binding(ConfigHandler.config.piglinOption,
+                                                () -> ConfigHandler.config.piglinOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.piglinOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Pillager"))
-                                        .binding(true, () -> this.pillagerOption, newVal -> this.pillagerOption = newVal)
+                                        .binding(ConfigHandler.config.pillagerOption,
+                                                () -> ConfigHandler.config.pillagerOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.pillagerOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Polar Bear"))
-                                        .binding(true, () -> this.polarBearOption, newVal -> this.polarBearOption = newVal)
+                                        .binding(ConfigHandler.config.polarBearOption,
+                                                () -> ConfigHandler.config.polarBearOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.polarBearOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Potion"))
-                                        .binding(true, () -> this.potionOption, newVal -> this.potionOption = newVal)
+                                        .binding(ConfigHandler.config.potionOption,
+                                                () -> ConfigHandler.config.potionOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.potionOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Pufferfish"))
-                                        .binding(true, () -> this.pufferfishOption, newVal -> this.pufferfishOption = newVal)
+                                        .binding(ConfigHandler.config.pufferfishOption,
+                                                () -> ConfigHandler.config.pufferfishOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.pufferfishOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Rabbit"))
-                                        .binding(true, () -> this.rabbitOption, newVal -> this.rabbitOption = newVal)
+                                        .binding(ConfigHandler.config.rabbitOption,
+                                                () -> ConfigHandler.config.rabbitOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.rabbitOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Ravager"))
-                                        .binding(true, () -> this.ravagerOption, newVal -> this.ravagerOption = newVal)
+                                        .binding(ConfigHandler.config.ravagerOption,
+                                                () -> ConfigHandler.config.ravagerOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.ravagerOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Salmon"))
-                                        .binding(true, () -> this.salmonOption, newVal -> this.salmonOption = newVal)
+                                        .binding(ConfigHandler.config.salmonOption,
+                                                () -> ConfigHandler.config.salmonOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.salmonOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Sheep"))
-                                        .binding(true, () -> this.sheepOption, newVal -> this.sheepOption = newVal)
+                                        .binding(ConfigHandler.config.sheepOption,
+                                                () -> ConfigHandler.config.sheepOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.sheepOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Shulker"))
-                                        .binding(true, () -> this.shulkerOption, newVal -> this.shulkerOption = newVal)
+                                        .binding(ConfigHandler.config.shulkerOption,
+                                                () -> ConfigHandler.config.shulkerOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.shulkerOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Skeleton"))
-                                        .binding(true, () -> this.skeletonOption, newVal -> this.skeletonOption = newVal)
+                                        .binding(ConfigHandler.config.skeletonOption,
+                                                () -> ConfigHandler.config.skeletonOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.skeletonOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Slime"))
-                                        .binding(true, () -> this.slimeOption, newVal -> this.slimeOption = newVal)
+                                        .binding(ConfigHandler.config.slimeOption,
+                                                () -> ConfigHandler.config.slimeOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.slimeOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Snow Golem"))
-                                        .binding(true, () -> this.snowGolemOption, newVal -> this.snowGolemOption = newVal)
+                                        .binding(ConfigHandler.config.snowGolemOption,
+                                                () -> ConfigHandler.config.snowGolemOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.snowGolemOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Snowball"))
-                                        .binding(true, () -> this.snowballOption, newVal -> this.snowballOption = newVal)
+                                        .binding(ConfigHandler.config.snowballOption,
+                                                () -> ConfigHandler.config.snowballOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.snowballOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Spider"))
-                                        .binding(true, () -> this.spiderOption, newVal -> this.spiderOption = newVal)
+                                        .binding(ConfigHandler.config.spiderOption,
+                                                () -> ConfigHandler.config.spiderOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.spiderOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Squid"))
-                                        .binding(true, () -> this.squidOption, newVal -> this.squidOption = newVal)
+                                        .binding(ConfigHandler.config.squidOption,
+                                                () -> ConfigHandler.config.squidOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.squidOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Stray"))
-                                        .binding(true, () -> this.strayOption, newVal -> this.strayOption = newVal)
+                                        .binding(ConfigHandler.config.strayOption,
+                                                () -> ConfigHandler.config.strayOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.strayOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("TNT"))
-                                        .binding(true, () -> this.tntOption, newVal -> this.tntOption = newVal)
+                                        .binding(ConfigHandler.config.tntOption,
+                                                () -> ConfigHandler.config.tntOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.tntOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Trader Llama"))
-                                        .binding(true, () -> this.traderLlamaOption, newVal -> this.traderLlamaOption = newVal)
+                                        .binding(ConfigHandler.config.traderLlamaOption,
+                                                () -> ConfigHandler.config.traderLlamaOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.traderLlamaOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Trident"))
-                                        .binding(true, () -> this.tridentOption, newVal -> this.tridentOption = newVal)
+                                        .binding(ConfigHandler.config.tridentOption,
+                                                () -> ConfigHandler.config.tridentOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.tridentOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Turtle"))
-                                        .binding(true, () -> this.turtleOption, newVal -> this.turtleOption = newVal)
+                                        .binding(ConfigHandler.config.turtleOption,
+                                                () -> ConfigHandler.config.turtleOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.turtleOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Villager"))
-                                        .binding(true, () -> this.villagerOption, newVal -> this.villagerOption = newVal)
+                                        .binding(ConfigHandler.config.villagerOption,
+                                                () -> ConfigHandler.config.villagerOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.villagerOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Vindicator"))
-                                        .binding(true, () -> this.vindicatorOption, newVal -> this.vindicatorOption = newVal)
+                                        .binding(ConfigHandler.config.vindicatorOption,
+                                                () -> ConfigHandler.config.vindicatorOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.vindicatorOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Warden"))
-                                        .binding(true, () -> this.wardenOption, newVal -> this.wardenOption = newVal)
+                                        .binding(ConfigHandler.config.wardenOption,
+                                                () -> ConfigHandler.config.wardenOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.wardenOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Witch"))
-                                        .binding(true, () -> this.witchOption, newVal -> this.witchOption = newVal)
+                                        .binding(ConfigHandler.config.witchOption,
+                                                () -> ConfigHandler.config.witchOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.witchOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Wither"))
-                                        .binding(true, () -> this.witherOption, newVal -> this.witherOption = newVal)
+                                        .binding(ConfigHandler.config.witherOption,
+                                                () -> ConfigHandler.config.witherOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.witherOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Wither Skeleton"))
-                                        .binding(true, () -> this.witherSkeletonOption, newVal -> this.witherSkeletonOption = newVal)
+                                        .binding(ConfigHandler.config.witherSkeletonOption,
+                                                () -> ConfigHandler.config.witherSkeletonOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.witherSkeletonOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Wolf"))
-                                        .binding(true, () -> this.wolfOption, newVal -> this.wolfOption = newVal)
+                                        .binding(ConfigHandler.config.wolfOption,
+                                                () -> ConfigHandler.config.wolfOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.wolfOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Zombie"))
-                                        .binding(true, () -> this.zombieOption, newVal -> this.zombieOption = newVal)
+                                        .binding(ConfigHandler.config.zombieOption,
+                                                () -> ConfigHandler.config.zombieOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.zombieOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Zombie Horse"))
-                                        .binding(true, () -> this.zombieHorseOption, newVal -> this.zombieHorseOption = newVal)
+                                        .binding(ConfigHandler.config.zombieHorseOption,
+                                                () -> ConfigHandler.config.zombieHorseOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.zombieHorseOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Zombie Villager"))
-                                        .binding(true, () -> this.zombieVillagerOption, newVal -> this.zombieVillagerOption = newVal)
+                                        .binding(ConfigHandler.config.zombieVillagerOption,
+                                                () -> ConfigHandler.config.zombieVillagerOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.zombieVillagerOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Zombified Piglin"))
-                                        .binding(true, () -> this.zombifiedPiglinOption, newVal -> this.zombifiedPiglinOption = newVal)
+                                        .binding(ConfigHandler.config.zombifiedPiglinOption,
+                                                () -> ConfigHandler.config.zombifiedPiglinOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.zombifiedPiglinOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Breeze Wind Charge"))
-                                        .binding(true, () -> this.breezeWindChargeOption, newVal -> this.breezeWindChargeOption = newVal)
+                                        .binding(ConfigHandler.config.breezeWindChargeOption,
+                                                () -> ConfigHandler.config.breezeWindChargeOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.breezeWindChargeOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Command Block Minecart"))
-                                        .binding(true, () -> this.commandBlockMinecartOption, newVal -> this.commandBlockMinecartOption = newVal)
+                                        .binding(ConfigHandler.config.commandBlockMinecartOption,
+                                                () -> ConfigHandler.config.commandBlockMinecartOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.commandBlockMinecartOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Dragon Fireball"))
-                                        .binding(true, () -> this.dragonFireballOption, newVal -> this.dragonFireballOption = newVal)
+                                        .binding(ConfigHandler.config.dragonFireballOption,
+                                                () -> ConfigHandler.config.dragonFireballOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.dragonFireballOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("End Crystal"))
-                                        .binding(true, () -> this.endCrystalOption, newVal -> this.endCrystalOption = newVal)
+                                        .binding(ConfigHandler.config.endCrystalOption,
+                                                () -> ConfigHandler.config.endCrystalOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.endCrystalOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Eye Of Ender"))
-                                        .binding(true, () -> this.eyeOfEnderOption, newVal -> this.eyeOfEnderOption = newVal)
+                                        .name(Text.literal("Eye of Ender"))
+                                        .binding(ConfigHandler.config.eyeOfEnderOption,
+                                                () -> ConfigHandler.config.eyeOfEnderOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.eyeOfEnderOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Fireball"))
-                                        .binding(true, () -> this.fireballOption, newVal -> this.fireballOption = newVal)
+                                        .binding(ConfigHandler.config.fireballOption,
+                                                () -> ConfigHandler.config.fireballOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.fireballOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Item Display"))
-                                        .binding(true, () -> this.itemDisplayOption, newVal -> this.itemDisplayOption = newVal)
+                                        .binding(ConfigHandler.config.itemDisplayOption,
+                                                () -> ConfigHandler.config.itemDisplayOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.itemDisplayOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Item Frame"))
-                                        .binding(true, () -> this.itemFrameOption, newVal -> this.itemFrameOption = newVal)
+                                        .binding(ConfigHandler.config.itemFrameOption,
+                                                () -> ConfigHandler.config.itemFrameOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.itemFrameOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Leash Knot"))
-                                        .binding(true, () -> this.leashKnotOption, newVal -> this.leashKnotOption = newVal)
+                                        .binding(ConfigHandler.config.leashKnotOption,
+                                                () -> ConfigHandler.config.leashKnotOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.leashKnotOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Lightning Bolt"))
-                                        .binding(true, () -> this.lightningBoltOption, newVal -> this.lightningBoltOption = newVal)
+                                        .binding(ConfigHandler.config.lightningBoltOption,
+                                                () -> ConfigHandler.config.lightningBoltOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.lightningBoltOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Llama Spit"))
-                                        .binding(true, () -> this.llamaSpitOption, newVal -> this.llamaSpitOption = newVal)
+                                        .binding(ConfigHandler.config.llamaSpitOption,
+                                                () -> ConfigHandler.config.llamaSpitOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.llamaSpitOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Marker"))
-                                        .binding(true, () -> this.markerOption, newVal -> this.markerOption = newVal)
+                                        .binding(ConfigHandler.config.markerOption,
+                                                () -> ConfigHandler.config.markerOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.markerOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Ominous Item Spawner"))
-                                        .binding(true, () -> this.ominousItemSpawnerOption, newVal -> this.ominousItemSpawnerOption = newVal)
+                                        .binding(ConfigHandler.config.ominousItemSpawnerOption,
+                                                () -> ConfigHandler.config.ominousItemSpawnerOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.ominousItemSpawnerOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Spectral Arrow"))
-                                        .binding(true, () -> this.spectralArrowOption, newVal -> this.spectralArrowOption = newVal)
+                                        .binding(ConfigHandler.config.spectralArrowOption,
+                                                () -> ConfigHandler.config.spectralArrowOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.spectralArrowOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Strider"))
-                                        .binding(true, () -> this.striderOption, newVal -> this.striderOption = newVal)
+                                        .binding(ConfigHandler.config.striderOption,
+                                                () -> ConfigHandler.config.striderOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.striderOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Tadpole"))
-                                        .binding(true, () -> this.tadpoleOption, newVal -> this.tadpoleOption = newVal)
+                                        .binding(ConfigHandler.config.tadpoleOption,
+                                                () -> ConfigHandler.config.tadpoleOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.tadpoleOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Text Display"))
-                                        .binding(true, () -> this.textDisplayOption, newVal -> this.textDisplayOption = newVal)
+                                        .binding(ConfigHandler.config.textDisplayOption,
+                                                () -> ConfigHandler.config.textDisplayOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.textDisplayOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("TNT Minecart"))
-                                        .binding(true, () -> this.tntMinecartOption, newVal -> this.tntMinecartOption = newVal)
+                                        .binding(ConfigHandler.config.tntMinecartOption,
+                                                () -> ConfigHandler.config.tntMinecartOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.tntMinecartOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Wandering Trader"))
-                                        .binding(true, () -> this.wanderingTraderOption, newVal -> this.wanderingTraderOption = newVal)
+                                        .binding(ConfigHandler.config.wanderingTraderOption,
+                                                () -> ConfigHandler.config.wanderingTraderOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.wanderingTraderOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Wind Charge"))
-                                        .binding(true, () -> this.windChargeOption, newVal -> this.windChargeOption = newVal)
+                                        .binding(ConfigHandler.config.windChargeOption,
+                                                () -> ConfigHandler.config.windChargeOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.windChargeOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Wither Skull"))
-                                        .binding(true, () -> this.witherSkullOption, newVal -> this.witherSkullOption = newVal)
+                                        .binding(ConfigHandler.config.witherSkullOption,
+                                                () -> ConfigHandler.config.witherSkullOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.witherSkullOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Fishing Bobber"))
-                                        .binding(true, () -> this.fishingBobberOption, newVal -> this.fishingBobberOption = newVal)
+                                        .binding(ConfigHandler.config.fishingBobberOption,
+                                                () -> ConfigHandler.config.fishingBobberOption,
+                                                newVal -> {
+                                                    ConfigHandler.config.fishingBobberOption = newVal;
+                                                    ConfigHandler.saveConfig();
+                                                })
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
-
                                 .build())
                         .build())
                 .build()
