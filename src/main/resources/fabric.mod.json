@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "entityrenderdisabler",
+  "version": "${version}",
+  "name": "EntityRenderDisabler",
+  "description": "A minecraft mod to disable Entity Render ",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/entityrenderdisabler/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "victorgponce.com.entityrenderdisabler.client.EntityrenderdisablerClient"
+    ],
+    "main": [
+      "victorgponce.com.entityrenderdisabler.Entityrenderdisabler"
+    ]
+  },
+  "mixins": [
+    "entityrenderdisabler.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
