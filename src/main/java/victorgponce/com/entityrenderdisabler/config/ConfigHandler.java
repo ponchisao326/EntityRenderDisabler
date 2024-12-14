@@ -2,7 +2,6 @@ package victorgponce.com.entityrenderdisabler.config;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import victorgponce.com.entityrenderdisabler.client.EntityrenderdisablerClient;
 
 import java.io.File;
 import java.io.FileReader;
