@@ -124,11 +124,11 @@ public class ModMenuIntegration implements ModMenuApi {
         return parentScreen -> YetAnotherConfigLib.createBuilder()
                 .title(Text.literal("Mobs"))
                 .category(ConfigCategory.createBuilder()
-                        .name(Text.literal("Mobs Selector"))
+                        .name(Text.literal("Entities Selector"))
                         .tooltip(Text.literal("Select the mobs you want to disable/enable it's render. If the box is ticked, the render is enabled"))
                         .group(OptionGroup.createBuilder()
                                 .name(Text.literal("Entities"))
-                                .description(OptionDescription.of(Text.literal("Overworld mobs.")))
+                                .description(OptionDescription.of(Text.literal("Overall Minecraft Entities.")))
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Allay"))
                                         .binding(ConfigHandler.config.allayOption,
