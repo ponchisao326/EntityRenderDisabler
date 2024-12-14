@@ -431,11 +431,6 @@ public class ModMenuIntegration implements ModMenuApi {
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
                                         .name(Text.literal("Experience Orb"))
-                                        .binding(true, () -> this.experienceOrbOption, newVal -> this.experienceOrbOption = newVal)
-                                        .controller(TickBoxControllerBuilder::create)
-                                        .build())
-                                .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Experience Orb"))
                                         .binding(ConfigHandler.config.experienceOrbOption,
                                                 () -> ConfigHandler.config.experienceOrbOption,
                                                 newVal -> {
