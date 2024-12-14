@@ -4,9 +4,9 @@
   "package": "victorgponce.com.entityrenderdisabler.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "EntityRenderMixin"
   ],
-  "client": [
-  ],
+  "client": [],
   "injectors": {
     "defaultRequire": 1
   }

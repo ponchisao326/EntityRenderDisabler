@@ -2,6 +2,7 @@ package victorgponce.com.entityrenderdisabler.config;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import victorgponce.com.entityrenderdisabler.client.EntityrenderdisablerClient;
 
 import java.io.File;
 import java.io.FileReader;
@@ -32,6 +33,12 @@ public class ConfigHandler {
             GSON.toJson(config, writer);
         } catch (IOException e) {
             e.printStackTrace();
+        } catch (Exception e) {
+            // Captura cualquier excepción inesperada y muestra un mensaje
+            System.err.println("[Entity Render Disabler] Error al guardar la configuración.");
+            e.printStackTrace();
         }
     }
+
+
 }

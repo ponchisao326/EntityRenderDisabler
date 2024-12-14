@@ -5,7 +5,8 @@ import com.terraformersmc.modmenu.api.ModMenuApi;
 
 import dev.isxander.yacl3.api.*;
 import dev.isxander.yacl3.api.controller.TickBoxControllerBuilder;
-import net.minecraft.text.Text;;
+import net.minecraft.text.Text;
+import victorgponce.com.entityrenderdisabler.client.EntityrenderdisablerClient;;
 
 public class ModMenuIntegration implements ModMenuApi {
 
