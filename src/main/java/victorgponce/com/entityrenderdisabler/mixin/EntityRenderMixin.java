@@ -1,23 +1,27 @@
 package victorgponce.com.entityrenderdisabler.mixin;
 
 import net.minecraft.client.render.Frustum;
-import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.EntityRenderer;
-import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.entity.Entity;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import victorgponce.com.entityrenderdisabler.config.ConfigHandler;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 @Mixin(EntityRenderer.class)
 public abstract class EntityRenderMixin<T extends Entity> {
 
+    // Crea un ExecutorService para manejar múltiples hilos.
+    private static final ExecutorService executorService = Executors.newFixedThreadPool(2);
+
     @Inject(
             method = "shouldRender",
-            at = @At("HEAD"),  // Inyectar después de la ejecución
+            at = @At("HEAD"),  // Inyectar antes de la ejecución
             cancellable = true
     )
     private void onRender(T entity, Frustum frustum, double x, double y, double z, CallbackInfoReturnable<Boolean> cir) {
@@ -28,6 +32,17 @@ public abstract class EntityRenderMixin<T extends Entity> {
     }
 
     private boolean isRenderEnabled(T entity) {
+        // Usamos un hilo separado para obtener la configuración de renderizado
+        try {
+            Future<Boolean> future = executorService.submit(() -> checkRenderOption(entity));
+            return future.get(); // Espera el resultado del hilo
+        } catch (Exception e) {
+            e.printStackTrace();
+            return true; // Si algo falla, por defecto renderizamos la entidad
+        }
+    }
+
+    private boolean checkRenderOption(T entity) {
         // Revisa la configuración en tiempo real
         switch (entity.getType().toString()) {
             case "entity.minecraft.allay": return ConfigHandler.config.allayOption;
@@ -139,6 +154,5 @@ public abstract class EntityRenderMixin<T extends Entity> {
             case "entity.minecraft.fishing_bobber": return ConfigHandler.config.fishingBobberOption;
             default: return true;
         }
-
     }
 }
