@@ -26,7 +26,6 @@ public class ConfigHandler {
         }
     }
 
-
     public static void saveConfig() {
         try (FileWriter writer = new FileWriter(CONFIG_FILE)) {
             GSON.toJson(config, writer);
@@ -38,6 +37,4 @@ public class ConfigHandler {
             e.printStackTrace();
         }
     }
-
-
 }
