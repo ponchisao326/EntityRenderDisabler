@@ -17,7 +17,7 @@ public abstract class EntityRenderMixin<T extends Entity> {
 
     @Inject(
             method = "shouldRender",
-            at = @At("HEAD"),  // Inyectar después de la ejecución
+            at = @At("HEAD"),  // Inyectar antes de la ejecución
             cancellable = true
     )
     private void onRender(T entity, Frustum frustum, double x, double y, double z, CallbackInfoReturnable<Boolean> cir) {
