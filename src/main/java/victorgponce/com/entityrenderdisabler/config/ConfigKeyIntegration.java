@@ -121,13 +121,13 @@ public class ConfigKeyIntegration {
         return YetAnotherConfigLib.createBuilder()
                 .title(Text.literal("Mobs"))
                 .category(ConfigCategory.createBuilder()
-                        .name(Text.literal("Entities Selector"))
-                        .tooltip(Text.literal("Select the mobs you want to disable/enable it's render. If the box is ticked, the render is enabled"))
+                        .name(Text.translatable("entity.entityrenderdisabler.categoryName"))
+                        .tooltip(Text.translatable("entity.entityrenderdisabler.tooltip"))
                         .group(OptionGroup.createBuilder()
-                                .name(Text.literal("Entities"))
-                                .description(OptionDescription.of(Text.literal("Overall Minecraft Entities.")))
+                                .name(Text.translatable("entity.entityrenderdisabler.name"))
+                                .description(OptionDescription.of(Text.translatable("entity.entityrenderdisabler.description")))
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Allay"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.allay"))
                                         .binding(ConfigHandler.config.allayOption,
                                                 () -> ConfigHandler.config.allayOption,
                                                 newVal -> {

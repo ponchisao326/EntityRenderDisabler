@@ -2,5 +2,12 @@
   "category.entityrenderdisabler": "Entity Render Disabler",
   "key.entityrenderdisabler.openConfig": "Open Configuration",
   "key.entityrenderdisabler.toggleRender": "Toggle Render Disabler",
-  "message.entityrenderdisabler.toggleRender": "Toggled Entity Render Disabler:"
+  "message.entityrenderdisabler.toggleRender": "Toggled Entity Render Disabler:",
+
+  "entity.entityrenderdisabler.description": "Overall Minecraft Entities.",
+  "entity.entityrenderdisabler.name": "Entities",
+  "entity.entityrenderdisabler.tooltip": "Select the mobs you want to disable/enable it's render. If the box is ticked, the render is enabled",
+  "entity.entityrenderdisabler.categoryName": "Entities Selector",
+
+  "entity.entityrenderdisabler.allay": "Allay"
 }
