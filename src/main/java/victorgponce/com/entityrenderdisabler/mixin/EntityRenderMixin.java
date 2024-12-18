@@ -25,7 +25,7 @@ public abstract class EntityRenderMixin<T extends Entity> {
             cancellable = true
     )
     private void onRender(T entity, Frustum frustum, double x, double y, double z, CallbackInfoReturnable<Boolean> cir) {
-        if (!isRenderEnabled(entity)) {
+        if (!isRenderEnabled(entity) && ConfigHandler.config.modStatus) {
             // Si no debe renderizar, cancelamos el renderizado
             cir.cancel();
         }

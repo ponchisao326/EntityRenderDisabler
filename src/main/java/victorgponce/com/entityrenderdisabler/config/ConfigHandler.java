@@ -12,12 +12,12 @@ public class ConfigHandler {
     private static final File CONFIG_FILE = new File("config/entity_render_disabler.json");
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
-    public static ModMenuIntegration config = new ModMenuIntegration();
+    public static ConfigKeyIntegration config = new ConfigKeyIntegration();
 
     public static void loadConfig() {
         if (CONFIG_FILE.exists()) {
             try (FileReader reader = new FileReader(CONFIG_FILE)) {
-                config = GSON.fromJson(reader, ModMenuIntegration.class);
+                config = GSON.fromJson(reader, ConfigKeyIntegration.class);
             } catch (IOException e) {
                 e.printStackTrace();
             }

@@ -1,13 +1,11 @@
 package victorgponce.com.entityrenderdisabler.config;
 
-import com.terraformersmc.modmenu.api.ConfigScreenFactory;
-import com.terraformersmc.modmenu.api.ModMenuApi;
-
 import dev.isxander.yacl3.api.*;
 import dev.isxander.yacl3.api.controller.TickBoxControllerBuilder;
+import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.text.Text;
 
-public class ModMenuIntegration implements ModMenuApi {
+public class ConfigKeyIntegration {
 
     public boolean allayOption = true;
     public boolean areaEffectCloudOption = true;
@@ -117,11 +115,10 @@ public class ModMenuIntegration implements ModMenuApi {
     public boolean witherSkullOption = true;
     public boolean fishingBobberOption = true;
 
+    public static boolean modStatus = true;
 
-
-    @Override
-    public ConfigScreenFactory<?> getModConfigScreenFactory() {
-        return parentScreen -> YetAnotherConfigLib.createBuilder()
+    public static Screen openMenu(Screen parent) {
+        return YetAnotherConfigLib.createBuilder()
                 .title(Text.literal("Mobs"))
                 .category(ConfigCategory.createBuilder()
                         .name(Text.literal("Entities Selector"))
@@ -1202,6 +1199,6 @@ public class ModMenuIntegration implements ModMenuApi {
                                 .build())
                         .build())
                 .build()
-                .generateScreen(parentScreen);
+                .generateScreen(parent);
     }
 }

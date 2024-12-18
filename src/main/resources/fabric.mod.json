@@ -16,9 +16,6 @@
     ],
     "main": [
       "victorgponce.com.entityrenderdisabler.Entityrenderdisabler"
-    ],
-    "modmenu": [
-      "victorgponce.com.entityrenderdisabler.config.ModMenuIntegration"
     ]
   },
   "mixins": [

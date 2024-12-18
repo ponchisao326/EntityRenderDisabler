@@ -4,6 +4,7 @@ import net.fabricmc.api.ClientModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import victorgponce.com.entityrenderdisabler.config.ConfigHandler;
+import victorgponce.com.entityrenderdisabler.config.KeyRegistry;
 
 public class EntityRenderDisablerClient implements ClientModInitializer {
 
@@ -19,6 +20,7 @@ public class EntityRenderDisablerClient implements ClientModInitializer {
 
         // Cargamos la configuración
         ConfigHandler.loadConfig();
+        KeyRegistry.register();
     }
 
     public void reloadConfig() {
