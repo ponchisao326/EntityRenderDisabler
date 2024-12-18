@@ -137,7 +137,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Area Effect Cloud"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.area_effect_cloud"))
                                         .binding(ConfigHandler.config.areaEffectCloudOption,
                                                 () -> ConfigHandler.config.areaEffectCloudOption,
                                                 newVal -> {
@@ -147,7 +147,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Armadillo"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.armadillo"))
                                         .binding(ConfigHandler.config.armadilloOption,
                                                 () -> ConfigHandler.config.armadilloOption,
                                                 newVal -> {
@@ -157,7 +157,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Armor Stand"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.armor_stand"))
                                         .binding(ConfigHandler.config.armorStandOption,
                                                 () -> ConfigHandler.config.armorStandOption,
                                                 newVal -> {
@@ -167,7 +167,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Arrow"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.arrow"))
                                         .binding(ConfigHandler.config.arrowOption,
                                                 () -> ConfigHandler.config.arrowOption,
                                                 newVal -> {
@@ -177,7 +177,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Axolotl"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.axolotl"))
                                         .binding(ConfigHandler.config.axolotlOption,
                                                 () -> ConfigHandler.config.axolotlOption,
                                                 newVal -> {
@@ -187,7 +187,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Bat"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.bat"))
                                         .binding(ConfigHandler.config.batOption,
                                                 () -> ConfigHandler.config.batOption,
                                                 newVal -> {
@@ -197,7 +197,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Bee"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.bee"))
                                         .binding(ConfigHandler.config.beeOption,
                                                 () -> ConfigHandler.config.beeOption,
                                                 newVal -> {
@@ -207,7 +207,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Blaze"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.blaze"))
                                         .binding(ConfigHandler.config.blazeOption,
                                                 () -> ConfigHandler.config.blazeOption,
                                                 newVal -> {
@@ -217,7 +217,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Block Display"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.block_display"))
                                         .binding(ConfigHandler.config.blockDisplayOption,
                                                 () -> ConfigHandler.config.blockDisplayOption,
                                                 newVal -> {
@@ -227,7 +227,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Boat"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.boat"))
                                         .binding(ConfigHandler.config.boatOption,
                                                 () -> ConfigHandler.config.boatOption,
                                                 newVal -> {
@@ -237,7 +237,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Camel"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.camel"))
                                         .binding(ConfigHandler.config.camelOption,
                                                 () -> ConfigHandler.config.camelOption,
                                                 newVal -> {
@@ -247,7 +247,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Cat"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.cat"))
                                         .binding(ConfigHandler.config.catOption,
                                                 () -> ConfigHandler.config.catOption,
                                                 newVal -> {
@@ -257,7 +257,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Cave Spider"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.cave_spider"))
                                         .binding(ConfigHandler.config.caveSpiderOption,
                                                 () -> ConfigHandler.config.caveSpiderOption,
                                                 newVal -> {
@@ -267,7 +267,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Chest Boat"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.chest_boat"))
                                         .binding(ConfigHandler.config.chestBoatOption,
                                                 () -> ConfigHandler.config.chestBoatOption,
                                                 newVal -> {
@@ -277,7 +277,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Chicken"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.chicken"))
                                         .binding(ConfigHandler.config.chickenOption,
                                                 () -> ConfigHandler.config.chickenOption,
                                                 newVal -> {
@@ -287,7 +287,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Cod"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.cod"))
                                         .binding(ConfigHandler.config.codOption,
                                                 () -> ConfigHandler.config.codOption,
                                                 newVal -> {
@@ -297,7 +297,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Cow"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.cow"))
                                         .binding(ConfigHandler.config.cowOption,
                                                 () -> ConfigHandler.config.cowOption,
                                                 newVal -> {
@@ -307,7 +307,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Creeper"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.creeper"))
                                         .binding(ConfigHandler.config.creeperOption,
                                                 () -> ConfigHandler.config.creeperOption,
                                                 newVal -> {
@@ -317,7 +317,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Dolphin"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.dolphin"))
                                         .binding(ConfigHandler.config.dolphinOption,
                                                 () -> ConfigHandler.config.dolphinOption,
                                                 newVal -> {
@@ -327,7 +327,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Donkey"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.donkey"))
                                         .binding(ConfigHandler.config.donkeyOption,
                                                 () -> ConfigHandler.config.donkeyOption,
                                                 newVal -> {
@@ -337,7 +337,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Drowned"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.drowned"))
                                         .binding(ConfigHandler.config.drownedOption,
                                                 () -> ConfigHandler.config.drownedOption,
                                                 newVal -> {
@@ -347,7 +347,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Egg"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.egg"))
                                         .binding(ConfigHandler.config.eggOption,
                                                 () -> ConfigHandler.config.eggOption,
                                                 newVal -> {
@@ -357,7 +357,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Elder Guardian"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.elder_guardian"))
                                         .binding(ConfigHandler.config.elderGuardianOption,
                                                 () -> ConfigHandler.config.elderGuardianOption,
                                                 newVal -> {
@@ -367,7 +367,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Ender Dragon"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.ender_dragon"))
                                         .binding(ConfigHandler.config.enderDragonOption,
                                                 () -> ConfigHandler.config.enderDragonOption,
                                                 newVal -> {
@@ -377,7 +377,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Ender Pearl"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.ender_pearl"))
                                         .binding(ConfigHandler.config.enderPearlOption,
                                                 () -> ConfigHandler.config.enderPearlOption,
                                                 newVal -> {
@@ -387,7 +387,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Enderman"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.enderman"))
                                         .binding(ConfigHandler.config.endermanOption,
                                                 () -> ConfigHandler.config.endermanOption,
                                                 newVal -> {
@@ -397,7 +397,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Endermite"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.endermite"))
                                         .binding(ConfigHandler.config.endermiteOption,
                                                 () -> ConfigHandler.config.endermiteOption,
                                                 newVal -> {
@@ -407,7 +407,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Evoker"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.evoker"))
                                         .binding(ConfigHandler.config.evokerOption,
                                                 () -> ConfigHandler.config.evokerOption,
                                                 newVal -> {
@@ -417,7 +417,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Experience Bottle"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.experience_bottle"))
                                         .binding(ConfigHandler.config.experienceBottleOption,
                                                 () -> ConfigHandler.config.experienceBottleOption,
                                                 newVal -> {
@@ -427,7 +427,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Experience Orb"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.experience_orb"))
                                         .binding(ConfigHandler.config.experienceOrbOption,
                                                 () -> ConfigHandler.config.experienceOrbOption,
                                                 newVal -> {
@@ -437,7 +437,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Firework Rocket"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.firework_rocket"))
                                         .binding(ConfigHandler.config.fireworkRocketOption,
                                                 () -> ConfigHandler.config.fireworkRocketOption,
                                                 newVal -> {
@@ -447,7 +447,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Fox"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.fox"))
                                         .binding(ConfigHandler.config.foxOption,
                                                 () -> ConfigHandler.config.foxOption,
                                                 newVal -> {
@@ -457,7 +457,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Furnace Minecart"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.furnace_minecart"))
                                         .binding(ConfigHandler.config.furnaceMinecartOption,
                                                 () -> ConfigHandler.config.furnaceMinecartOption,
                                                 newVal -> {
@@ -467,7 +467,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Ghast"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.ghast"))
                                         .binding(ConfigHandler.config.ghastOption,
                                                 () -> ConfigHandler.config.ghastOption,
                                                 newVal -> {
@@ -477,7 +477,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Giant"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.giant"))
                                         .binding(ConfigHandler.config.giantOption,
                                                 () -> ConfigHandler.config.giantOption,
                                                 newVal -> {
@@ -487,7 +487,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Glow Item Frame"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.glow_item_frame"))
                                         .binding(ConfigHandler.config.glowItemFrameOption,
                                                 () -> ConfigHandler.config.glowItemFrameOption,
                                                 newVal -> {
@@ -497,7 +497,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Glow Squid"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.glow_squid"))
                                         .binding(ConfigHandler.config.glowSquidOption,
                                                 () -> ConfigHandler.config.glowSquidOption,
                                                 newVal -> {
@@ -507,7 +507,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Goat"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.goat"))
                                         .binding(ConfigHandler.config.goatOption,
                                                 () -> ConfigHandler.config.goatOption,
                                                 newVal -> {
@@ -517,7 +517,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Guardian"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.guardian"))
                                         .binding(ConfigHandler.config.guardianOption,
                                                 () -> ConfigHandler.config.guardianOption,
                                                 newVal -> {
@@ -527,7 +527,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Horse"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.horse"))
                                         .binding(ConfigHandler.config.horseOption,
                                                 () -> ConfigHandler.config.horseOption,
                                                 newVal -> {
@@ -537,7 +537,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Husk"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.husk"))
                                         .binding(ConfigHandler.config.huskOption,
                                                 () -> ConfigHandler.config.huskOption,
                                                 newVal -> {
@@ -547,7 +547,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Iron Golem"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.iron_golem"))
                                         .binding(ConfigHandler.config.ironGolemOption,
                                                 () -> ConfigHandler.config.ironGolemOption,
                                                 newVal -> {
@@ -557,7 +557,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Item"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.item"))
                                         .binding(ConfigHandler.config.itemOption,
                                                 () -> ConfigHandler.config.itemOption,
                                                 newVal -> {
@@ -567,7 +567,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Llama"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.llama"))
                                         .binding(ConfigHandler.config.llamaOption,
                                                 () -> ConfigHandler.config.llamaOption,
                                                 newVal -> {
@@ -577,7 +577,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Magma Cube"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.magma_cube"))
                                         .binding(ConfigHandler.config.magmaCubeOption,
                                                 () -> ConfigHandler.config.magmaCubeOption,
                                                 newVal -> {
@@ -587,7 +587,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Minecart"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.minecart"))
                                         .binding(ConfigHandler.config.minecartOption,
                                                 () -> ConfigHandler.config.minecartOption,
                                                 newVal -> {
@@ -597,7 +597,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Mooshroom"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.mooshroom"))
                                         .binding(ConfigHandler.config.mooshroomOption,
                                                 () -> ConfigHandler.config.mooshroomOption,
                                                 newVal -> {
@@ -607,7 +607,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Mule"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.mule"))
                                         .binding(ConfigHandler.config.muleOption,
                                                 () -> ConfigHandler.config.muleOption,
                                                 newVal -> {
@@ -617,7 +617,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Ocelot"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.ocelot"))
                                         .binding(ConfigHandler.config.ocelotOption,
                                                 () -> ConfigHandler.config.ocelotOption,
                                                 newVal -> {
@@ -627,7 +627,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Panda"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.panda"))
                                         .binding(ConfigHandler.config.pandaOption,
                                                 () -> ConfigHandler.config.pandaOption,
                                                 newVal -> {
@@ -637,7 +637,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Parrot"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.parrot"))
                                         .binding(ConfigHandler.config.parrotOption,
                                                 () -> ConfigHandler.config.parrotOption,
                                                 newVal -> {
@@ -647,7 +647,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Pig"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.pig"))
                                         .binding(ConfigHandler.config.pigOption,
                                                 () -> ConfigHandler.config.pigOption,
                                                 newVal -> {
@@ -657,7 +657,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Piglin"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.piglin"))
                                         .binding(ConfigHandler.config.piglinOption,
                                                 () -> ConfigHandler.config.piglinOption,
                                                 newVal -> {
@@ -667,7 +667,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Pillager"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.pillager"))
                                         .binding(ConfigHandler.config.pillagerOption,
                                                 () -> ConfigHandler.config.pillagerOption,
                                                 newVal -> {
@@ -677,7 +677,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Polar Bear"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.polar_bear"))
                                         .binding(ConfigHandler.config.polarBearOption,
                                                 () -> ConfigHandler.config.polarBearOption,
                                                 newVal -> {
@@ -687,7 +687,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Potion"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.potion"))
                                         .binding(ConfigHandler.config.potionOption,
                                                 () -> ConfigHandler.config.potionOption,
                                                 newVal -> {
@@ -697,7 +697,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Pufferfish"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.pufferfish"))
                                         .binding(ConfigHandler.config.pufferfishOption,
                                                 () -> ConfigHandler.config.pufferfishOption,
                                                 newVal -> {
@@ -707,7 +707,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Rabbit"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.rabbit"))
                                         .binding(ConfigHandler.config.rabbitOption,
                                                 () -> ConfigHandler.config.rabbitOption,
                                                 newVal -> {
@@ -717,7 +717,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Ravager"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.ravager"))
                                         .binding(ConfigHandler.config.ravagerOption,
                                                 () -> ConfigHandler.config.ravagerOption,
                                                 newVal -> {
@@ -727,7 +727,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Salmon"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.salmon"))
                                         .binding(ConfigHandler.config.salmonOption,
                                                 () -> ConfigHandler.config.salmonOption,
                                                 newVal -> {
@@ -737,7 +737,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Sheep"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.sheep"))
                                         .binding(ConfigHandler.config.sheepOption,
                                                 () -> ConfigHandler.config.sheepOption,
                                                 newVal -> {
@@ -747,7 +747,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Shulker"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.shulker"))
                                         .binding(ConfigHandler.config.shulkerOption,
                                                 () -> ConfigHandler.config.shulkerOption,
                                                 newVal -> {
@@ -757,7 +757,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Skeleton"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.skeleton"))
                                         .binding(ConfigHandler.config.skeletonOption,
                                                 () -> ConfigHandler.config.skeletonOption,
                                                 newVal -> {
@@ -767,7 +767,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Slime"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.slime"))
                                         .binding(ConfigHandler.config.slimeOption,
                                                 () -> ConfigHandler.config.slimeOption,
                                                 newVal -> {
@@ -777,7 +777,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Snow Golem"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.snow_golem"))
                                         .binding(ConfigHandler.config.snowGolemOption,
                                                 () -> ConfigHandler.config.snowGolemOption,
                                                 newVal -> {
@@ -787,7 +787,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Snowball"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.snowball"))
                                         .binding(ConfigHandler.config.snowballOption,
                                                 () -> ConfigHandler.config.snowballOption,
                                                 newVal -> {
@@ -797,7 +797,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Spider"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.spider"))
                                         .binding(ConfigHandler.config.spiderOption,
                                                 () -> ConfigHandler.config.spiderOption,
                                                 newVal -> {
@@ -807,7 +807,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Squid"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.squid"))
                                         .binding(ConfigHandler.config.squidOption,
                                                 () -> ConfigHandler.config.squidOption,
                                                 newVal -> {
@@ -817,7 +817,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Stray"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.stray"))
                                         .binding(ConfigHandler.config.strayOption,
                                                 () -> ConfigHandler.config.strayOption,
                                                 newVal -> {
@@ -827,7 +827,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("TNT"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.tnt"))
                                         .binding(ConfigHandler.config.tntOption,
                                                 () -> ConfigHandler.config.tntOption,
                                                 newVal -> {
@@ -837,7 +837,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Trader Llama"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.trader_llama"))
                                         .binding(ConfigHandler.config.traderLlamaOption,
                                                 () -> ConfigHandler.config.traderLlamaOption,
                                                 newVal -> {
@@ -847,7 +847,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Trident"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.trident"))
                                         .binding(ConfigHandler.config.tridentOption,
                                                 () -> ConfigHandler.config.tridentOption,
                                                 newVal -> {
@@ -857,7 +857,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Turtle"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.turtle"))
                                         .binding(ConfigHandler.config.turtleOption,
                                                 () -> ConfigHandler.config.turtleOption,
                                                 newVal -> {
@@ -867,7 +867,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Villager"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.villager"))
                                         .binding(ConfigHandler.config.villagerOption,
                                                 () -> ConfigHandler.config.villagerOption,
                                                 newVal -> {
@@ -877,7 +877,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Vindicator"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.vindicator"))
                                         .binding(ConfigHandler.config.vindicatorOption,
                                                 () -> ConfigHandler.config.vindicatorOption,
                                                 newVal -> {
@@ -887,7 +887,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Warden"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.warden"))
                                         .binding(ConfigHandler.config.wardenOption,
                                                 () -> ConfigHandler.config.wardenOption,
                                                 newVal -> {
@@ -897,7 +897,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Witch"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.witch"))
                                         .binding(ConfigHandler.config.witchOption,
                                                 () -> ConfigHandler.config.witchOption,
                                                 newVal -> {
@@ -907,7 +907,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Wither"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.wither"))
                                         .binding(ConfigHandler.config.witherOption,
                                                 () -> ConfigHandler.config.witherOption,
                                                 newVal -> {
@@ -917,7 +917,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Wither Skeleton"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.wither_skeleton"))
                                         .binding(ConfigHandler.config.witherSkeletonOption,
                                                 () -> ConfigHandler.config.witherSkeletonOption,
                                                 newVal -> {
@@ -927,7 +927,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Wolf"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.wolf"))
                                         .binding(ConfigHandler.config.wolfOption,
                                                 () -> ConfigHandler.config.wolfOption,
                                                 newVal -> {
@@ -937,7 +937,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Zombie"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.zombie"))
                                         .binding(ConfigHandler.config.zombieOption,
                                                 () -> ConfigHandler.config.zombieOption,
                                                 newVal -> {
@@ -947,7 +947,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Zombie Horse"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.zombie_horse"))
                                         .binding(ConfigHandler.config.zombieHorseOption,
                                                 () -> ConfigHandler.config.zombieHorseOption,
                                                 newVal -> {
@@ -957,7 +957,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Zombie Villager"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.zombie_villager"))
                                         .binding(ConfigHandler.config.zombieVillagerOption,
                                                 () -> ConfigHandler.config.zombieVillagerOption,
                                                 newVal -> {
@@ -967,7 +967,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Zombified Piglin"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.zombified_piglin"))
                                         .binding(ConfigHandler.config.zombifiedPiglinOption,
                                                 () -> ConfigHandler.config.zombifiedPiglinOption,
                                                 newVal -> {
@@ -977,7 +977,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Breeze Wind Charge"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.breeze_wind_charge"))
                                         .binding(ConfigHandler.config.breezeWindChargeOption,
                                                 () -> ConfigHandler.config.breezeWindChargeOption,
                                                 newVal -> {
@@ -987,7 +987,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Command Block Minecart"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.command_block_minecart"))
                                         .binding(ConfigHandler.config.commandBlockMinecartOption,
                                                 () -> ConfigHandler.config.commandBlockMinecartOption,
                                                 newVal -> {
@@ -997,7 +997,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Dragon Fireball"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.dragon_fireball"))
                                         .binding(ConfigHandler.config.dragonFireballOption,
                                                 () -> ConfigHandler.config.dragonFireballOption,
                                                 newVal -> {
@@ -1007,7 +1007,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("End Crystal"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.end_crystal"))
                                         .binding(ConfigHandler.config.endCrystalOption,
                                                 () -> ConfigHandler.config.endCrystalOption,
                                                 newVal -> {
@@ -1017,7 +1017,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Eye of Ender"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.eye_of_ender"))
                                         .binding(ConfigHandler.config.eyeOfEnderOption,
                                                 () -> ConfigHandler.config.eyeOfEnderOption,
                                                 newVal -> {
@@ -1027,7 +1027,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Fireball"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.fireball"))
                                         .binding(ConfigHandler.config.fireballOption,
                                                 () -> ConfigHandler.config.fireballOption,
                                                 newVal -> {
@@ -1037,7 +1037,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Item Display"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.item_display"))
                                         .binding(ConfigHandler.config.itemDisplayOption,
                                                 () -> ConfigHandler.config.itemDisplayOption,
                                                 newVal -> {
@@ -1047,7 +1047,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Item Frame"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.item_frame"))
                                         .binding(ConfigHandler.config.itemFrameOption,
                                                 () -> ConfigHandler.config.itemFrameOption,
                                                 newVal -> {
@@ -1057,7 +1057,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Leash Knot"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.leash_knot"))
                                         .binding(ConfigHandler.config.leashKnotOption,
                                                 () -> ConfigHandler.config.leashKnotOption,
                                                 newVal -> {
@@ -1067,7 +1067,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Lightning Bolt"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.lightning_bolt"))
                                         .binding(ConfigHandler.config.lightningBoltOption,
                                                 () -> ConfigHandler.config.lightningBoltOption,
                                                 newVal -> {
@@ -1077,7 +1077,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Llama Spit"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.llama_spit"))
                                         .binding(ConfigHandler.config.llamaSpitOption,
                                                 () -> ConfigHandler.config.llamaSpitOption,
                                                 newVal -> {
@@ -1087,7 +1087,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Marker"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.marker"))
                                         .binding(ConfigHandler.config.markerOption,
                                                 () -> ConfigHandler.config.markerOption,
                                                 newVal -> {
@@ -1097,7 +1097,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Ominous Item Spawner"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.ominous_item_spawner"))
                                         .binding(ConfigHandler.config.ominousItemSpawnerOption,
                                                 () -> ConfigHandler.config.ominousItemSpawnerOption,
                                                 newVal -> {
@@ -1107,7 +1107,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Spectral Arrow"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.spectral_arrow"))
                                         .binding(ConfigHandler.config.spectralArrowOption,
                                                 () -> ConfigHandler.config.spectralArrowOption,
                                                 newVal -> {
@@ -1117,7 +1117,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Strider"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.strider"))
                                         .binding(ConfigHandler.config.striderOption,
                                                 () -> ConfigHandler.config.striderOption,
                                                 newVal -> {
@@ -1127,7 +1127,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Tadpole"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.tadpole"))
                                         .binding(ConfigHandler.config.tadpoleOption,
                                                 () -> ConfigHandler.config.tadpoleOption,
                                                 newVal -> {
@@ -1137,7 +1137,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Text Display"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.text_display"))
                                         .binding(ConfigHandler.config.textDisplayOption,
                                                 () -> ConfigHandler.config.textDisplayOption,
                                                 newVal -> {
@@ -1147,7 +1147,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("TNT Minecart"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.tnt_minecart"))
                                         .binding(ConfigHandler.config.tntMinecartOption,
                                                 () -> ConfigHandler.config.tntMinecartOption,
                                                 newVal -> {
@@ -1157,7 +1157,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Wandering Trader"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.wandering_trader"))
                                         .binding(ConfigHandler.config.wanderingTraderOption,
                                                 () -> ConfigHandler.config.wanderingTraderOption,
                                                 newVal -> {
@@ -1167,7 +1167,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Wind Charge"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.wind_charge"))
                                         .binding(ConfigHandler.config.windChargeOption,
                                                 () -> ConfigHandler.config.windChargeOption,
                                                 newVal -> {
@@ -1177,7 +1177,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Wither Skull"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.wither_skull"))
                                         .binding(ConfigHandler.config.witherSkullOption,
                                                 () -> ConfigHandler.config.witherSkullOption,
                                                 newVal -> {
@@ -1187,7 +1187,7 @@ public class ConfigKeyIntegration {
                                         .controller(TickBoxControllerBuilder::create)
                                         .build())
                                 .option(Option.<Boolean>createBuilder()
-                                        .name(Text.literal("Fishing Bobber"))
+                                        .name(Text.translatable("entity.entityrenderdisabler.fishing_bobber"))
                                         .binding(ConfigHandler.config.fishingBobberOption,
                                                 () -> ConfigHandler.config.fishingBobberOption,
                                                 newVal -> {
