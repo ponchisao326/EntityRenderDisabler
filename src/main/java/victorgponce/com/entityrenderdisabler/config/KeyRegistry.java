@@ -10,6 +10,7 @@ import net.minecraft.text.Text;
 import net.minecraft.text.TextColor;
 import net.minecraft.world.World;
 import org.lwjgl.glfw.GLFW;
+import victorgponce.com.entityrenderdisabler.screens.ConfigScreen;
 
 public class KeyRegistry {
 
@@ -37,7 +38,7 @@ public class KeyRegistry {
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             if (openConfigKey.wasPressed()) {
                 if (client != null) {
-                    client.setScreen(ConfigKeyIntegration.openMenu(client.currentScreen));
+                    client.setScreen(new ConfigScreen());
                 }
             }
 

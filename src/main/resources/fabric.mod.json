@@ -30,7 +30,7 @@
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
     "minecraft": "${minecraft_version}",
-    "yet_another_config_lib_v3": ">=3.6.1+1.21-fabric"
+    "yet_another_config_lib_v3": ">=3.6.2+1.21-fabric"
   },
   "custom": {
     "modmenu": {
