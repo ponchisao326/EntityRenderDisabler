@@ -38,7 +38,7 @@ public class KeyRegistry {
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             if (openConfigKey.wasPressed()) {
                 if (client != null) {
-                    client.setScreen(new ConfigScreen());
+                    client.setScreen(ConfigKeyIntegration.openMenu(client.currentScreen));
                 }
             }
 

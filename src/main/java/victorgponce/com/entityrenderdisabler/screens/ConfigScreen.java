@@ -26,4 +26,9 @@ public class ConfigScreen extends Screen {
 
         super.render(context, mouseX, mouseY, delta);
     }
+
+    @Override
+    protected void applyBlur() {
+        return;
+    }
 }
