@@ -14,6 +14,10 @@ repositories {
         name 'Xander Maven'
         url 'https://maven.isxander.dev/releases'
     }
+    maven {
+        name 'ParchmentMC'
+        url 'https://maven.parchmentmc.org'
+    }
 }
 
 base {
