@@ -15,8 +15,7 @@ This mod gives you the power to **enable or disable the rendering of specific en
 
 Whether you're on a low-end system or just looking to fine-tune your game, *Entity Render Disabler* helps you create a smoother Minecraft experience.
 
-🛠 **Built for Fabric (Currently being ported to Forge & NeoForge)**
-
+🛠 **Built for Fabric & NeoForge**
 
 ---
 
