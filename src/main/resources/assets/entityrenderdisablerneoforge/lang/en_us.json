@@ -1,0 +1,8 @@
+{
+  "config.entityrenderdisabler.title": "Entity Render Disabler",
+  "key.entityrenderdisabler.openConfig": "Open Configuration",
+  "key.entityrenderdisabler.toggleRender": "Toggle Render Disabler",
+  "message.entityrenderdisabler.toggleRender": "Toggle Entity Render Disabler",
+  "config.entityrenderdisabler.description": "Toggle rendering for this entity",
+  "category.entityrenderdisabler": "Entity Render Disabler"
+}
