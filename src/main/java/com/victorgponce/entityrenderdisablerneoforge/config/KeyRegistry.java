@@ -19,7 +19,7 @@ public class KeyRegistry {
     private static KeyMapping configKeyBinding;
     private static KeyMapping entityRenderToggle;
 
-    @EventBusSubscriber(value = Dist.CLIENT, bus = EventBusSubscriber.Bus.MOD)
+    @EventBusSubscriber(value = Dist.CLIENT)
     public static class KeyRegistration {
         @SubscribeEvent
         public static void registerKeyBindings(RegisterKeyMappingsEvent event) {
