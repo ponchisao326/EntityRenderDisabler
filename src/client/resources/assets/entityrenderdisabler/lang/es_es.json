@@ -1,0 +1,7 @@
+{
+  "config.entityrenderdisabler.title": "Entity Render Disabler",
+  "key.entityrenderdisabler.openConfig": "Abrir Configuración",
+  "key.entityrenderdisabler.toggleRender": "Alternar Deshabilitador de Renderizado",
+  "message.entityrenderdisabler.toggleRender": "Deshabilitador de Renderizado de Entidades",
+  "config.entityrenderdisabler.description": "Deshabilitar el renderizado de esta entidad"
+}

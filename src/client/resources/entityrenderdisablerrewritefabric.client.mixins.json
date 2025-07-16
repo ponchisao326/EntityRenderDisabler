@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.victorgponce.entityrenderdisablerrewritefabric.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "EntityRenderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

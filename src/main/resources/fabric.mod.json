@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "entityrenderdisablerrewritefabric",
+  "version": "${version}",
+  "name": "EntityRenderDisabler",
+  "description": "Boost your game's performance and eliminate unnecessary rendering",
+  "authors": [
+    "Ponchisao326"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/project/entity-render-disabler",
+    "sources": "https://github.com/ponchisao326/EntityRenderDisabler",
+    "issues": "https://github.com/ponchisao326/EntityRenderDisabler/issues"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/entityrenderdisablerrewritefabric/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.victorgponce.entityrenderdisablerrewritefabric.client.EntityrenderdisablerrewritefabricDataGenerator"
+    ],
+    "client": [
+      "com.victorgponce.entityrenderdisablerrewritefabric.client.EntityrenderdisablerrewritefabricClient"
+    ],
+    "main": [
+      "com.victorgponce.entityrenderdisablerrewritefabric.Entityrenderdisablerrewritefabric"
+    ],
+    "modmenu": [
+      "com.victorgponce.entityrenderdisablerrewritefabric.client.compat.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "entityrenderdisablerrewritefabric.mixins.json",
+    {
+      "config": "entityrenderdisablerrewritefabric.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "yet_another_config_lib_v3": ">=${yacl_version}"
+  },
+  "suggests": {
+    "modmenu": "${modmenu_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.website": "https://victorgponce.com"
+      },
+      "description": "A minecraft mod to disable Entity Render",
+      "icon": "assets/entityrenderdisablerrewritefabric/icon.png",
+      "update_checker": false
+    }
+  }
+}
