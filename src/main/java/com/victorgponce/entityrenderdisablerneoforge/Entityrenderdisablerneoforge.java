@@ -28,7 +28,7 @@ public class Entityrenderdisablerneoforge {
     // Map to store entities grouped by mod
     public static final Map<String, Map<String, EntityType<?>>> entitiesByMod = new ConcurrentHashMap<>();
 
-    public Entityrenderdisablerneoforge(IEventBus modEventBus, ModContainer modContainer) {
+    public Entityrenderdisablerneoforge(IEventBus modEventBus) {
         // Initialize config
         ModConfig.load();
 
@@ -53,19 +53,6 @@ public class Entityrenderdisablerneoforge {
 
             LOGGER.info("Entity Render Disabler loaded with {} mods containing entities", entitiesByMod.size());
         });
-    }
-
-    @EventBusSubscriber(modid = MODID)
-    public static class ClientModEvents {
-        @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event) {
-            LOGGER.info("Entity Render Disabler client setup");
-        }
-
-        @SubscribeEvent
-        public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
-
-        }
     }
 
     public static Map<String, Map<String, EntityType<?>>> getEntitiesByMod() {
