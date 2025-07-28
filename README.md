@@ -46,3 +46,9 @@ See the difference for yourself! Below are two comparison images:
 ---
 
 Boost your game's performance and eliminate unnecessary rendering – *Entity Render Disabler* is here to make your Minecraft experience smoother than ever!
+
+---
+
+### 📃 **Wiki**
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ponchisao326/EntityRenderDisabler)
