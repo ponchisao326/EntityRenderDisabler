@@ -8,6 +8,7 @@ import net.minecraft.client.util.InputUtil;
 import net.minecraft.text.MutableText;
 import net.minecraft.text.Text;
 import net.minecraft.text.TextColor;
+import net.minecraft.util.Identifier;
 import net.minecraft.world.World;
 import org.lwjgl.glfw.GLFW;
 
@@ -15,6 +16,7 @@ public class KeyRegistry {
 
     private static KeyBinding configKeyBinding;
     private static KeyBinding entityRenderToggle;
+    private static final KeyBinding.Category ENTITY_RENDER_DISABLER_CAT = KeyBinding.Category.create(Identifier.of("entityrenderdisabler"));
 
     // Method to register KeyBindings
     public static void register() {
@@ -23,7 +25,7 @@ public class KeyRegistry {
                 "key.entityrenderdisabler.openConfig",
                 InputUtil.Type.KEYSYM,
                 GLFW.GLFW_KEY_O,
-                "category.entityrenderdisabler"
+                ENTITY_RENDER_DISABLER_CAT
         ));
 
         // Register the KeyBinding for toggling rendering
@@ -31,7 +33,7 @@ public class KeyRegistry {
                 "key.entityrenderdisabler.toggleRender",
                 InputUtil.Type.KEYSYM,
                 GLFW.GLFW_KEY_G,
-                "category.entityrenderdisabler"
+                ENTITY_RENDER_DISABLER_CAT
         ));
 
         // Listener for key press detection
